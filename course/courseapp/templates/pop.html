@@ -1,0 +1,17 @@
+{% if messages %}
+{% for msg in messages %}
+{% if msg.level_tag == "error" %}
+<div class="alert alert-danger bg-danger text-white btn_close" role="alert">
+    {{msg.message}}
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">X</button>
+</div>
+{% else %}
+<div class="alert alert-success bg-success text-white btn_close" role="alert">
+    {{msg.message}}
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">X</button>
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% endif %}

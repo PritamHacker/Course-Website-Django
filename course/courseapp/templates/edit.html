@@ -1,0 +1,117 @@
+<html>
+{% load static %}
+<head>
+<title>Edit</title>
+<style>
+body{
+	background-color:#D3D0CB;
+	margin-top:22px;
+}
+.innerbox{
+	width: 400px;
+	height: all;
+	background:url(../static/img/inback.jpg);
+	/*background-color:#CBBCB9;*/
+	background-size: cover;
+	box-sizing: border-box;
+	padding-top:30px;
+	padding-left:30px;
+	padding-bottom:10px;
+	padding-right:30px;
+    box-shadow: 8px 7px 18px;
+	border-radius: 30px;
+	margin:auto;
+}
+h1{
+	margin-bottom:18px;
+	margin-top:18px;
+	color:#a70628;
+
+}
+#btn{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+	margin-top: 20px;
+    margin-bottom: -45px;
+    color: #aa1f0f;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #b6d6e2;
+    width: 150px;
+    height: 25px;
+}
+.btn1{
+	margin-top: 62px;
+    margin-bottom: -18px;
+    color: #036fff;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #b6d6e2;
+    width: 79px;
+    height: 25px;
+    margin-right: 17px;
+}
+.input{
+	border-radius: 4px;
+	height:25px;
+}
+#add{
+	border-radius: 8px;
+}
+/*::placeholder{
+	color:red;
+}*/
+</style>
+</head>
+<body>
+		<center><h1><u>Registration Form</u></h1></center>
+		<div class="innerbox">
+		<form action="{% url 'update' %}" method="POST" enctype="multipart/form-data">
+			{% csrf_token %}
+			<label style="font-size:18px; color:#2E1BE5;"><b>First Name:</b></label>
+			<br>
+			<input class="input" size="42px" type="text" value="{{user.fname}}" name="fname" placeholder="Enter First Name" required>
+			<br>
+			<br>
+			<label style="font-size:18px;color:#2E1BE5;"><b>Last Name:</b></label>
+			<br>
+			<input class="input" size="42px" value="{{user.lname}}" type="text" name="lname" placeholder="Enter Last Name" required>
+			<br>
+			<br>
+			<label style="font-size:18px;color:#2E1BE5;"><b>Phone No:</b></label>
+			<br>
+			<input class="input" style="width:314px" value="{{user.phone}}" type="number" name="phone" placeholder="Enter Phone No." required>
+			<br>
+			<br>
+			<label style="font-size:18px;color:#2E1BE5;"><b>Email:</b></label>
+			<br>
+			<input class="input" size="42px" value="{{user.email}}" type="email" name="email" placeholder="Enter Your Email Id" required>
+			<br>
+			<br>
+            <label style="font-size:18px;color:#2E1BE5;"><b>Password:</b></label>
+			<br>
+			<input class="input" size="42px" value="{{user.password}}" type="password" name="password" placeholder="Password" required>
+			<br><br>
+			<label style="font-size:18px;color:#2E1BE5;"><b>Confirm Password : </b></label>
+			<input class="input" size="42px" value="{{user.password}}" type="password" name="cpassword" placeholder="Confirm Password" required>
+			<br><br>
+			<label style="font-size:18px;color:#2E1BE5;"><b>Gender:</b></label>
+			<input value='male' id="male" type="radio" name="gender"required checked/><label for="male">Male</label>
+            <input value='female' id="female" type="radio" name="gender"required/><label for="female">Female</label>
+        <br>
+		<br>
+            <input type="checkbox" name="check" required/>
+            <label style="color:blue;">i am agree with terms and conditions.</label>
+            <br>
+            <input id="btn" type="submit" value="Register"/>
+			{% comment %} <input class="btn1" type="button" name="submit" value="Login">
+			<input class="btn1" type="button" name="submit" value="Home"> {% endcomment %}
+			<button type="button" onclick="window.location.href='{% url 'signup' %}'" class="btn1">Login</button>
+			<button type="button" onclick="window.location.href='{% url 'index' %}'" class="btn1">Home</button>
+			<input type="hidden" name="edit_id" value={{user.id}}>
+            <input type="submit" value="update" id="button"><br><br>
+		</form>
+		</div>
+</body>
+</html> 

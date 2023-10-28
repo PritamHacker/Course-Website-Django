@@ -1,0 +1,37 @@
+{% include 'header.html' %}
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+</style>
+
+<h2 style="color:blue;">Order History</h2>
+{% if 'email' in request.session %}
+{% if orders %}
+<table style="width:100%;">
+  {% for order in orders %}
+  {% for ordered_item in order.ordereditem_set.all %}
+  <thead>
+    <th>ID</th>
+    <th>Total Price</th>
+    <th >Product Image</th>
+    <th>Product Name</th>
+    <th>product Price</th>
+  </thead>
+  <tbody>
+    <td>#{{ order.id }}</td>
+    <td>{{ order.total_price }}</td>
+    <td style="height:100px; padding-left:80px;"><img src="{{ ordered_item.product.image.url }}" alt="" width="150"></td>
+    <td>{{ ordered_item.product.name }}</td>
+    <td>{{ ordered_item.product.price }}<td>
+    {% endfor %}
+  </tbody>
+  {% endfor %}
+</table>
+{% else %}
+    <p>No orders found.</p>
+  {% endif %}
+  <h2 style="margin-top:25px;"><a href="{% url 'index' %}">Continue Shopping</a></h2>
+  {% endif %}
+{% include 'footer.html' %}

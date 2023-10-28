@@ -1,0 +1,33 @@
+{% comment %} -------- Regis ---------- {% endcomment %}
+
+<table>
+    <thead>
+        <th>Sno.</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Gender</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+        {% for i in data %}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{i.fname}}</td>
+            <td>{{i.lname}}</td>
+            <td>{{i.phone}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.password}}</td>
+            <td>{{i.gender}}</td>
+            <td><a class="btn btn-sm bg-primary text-white mr-2" href="{% url 'edit_user' i.id %}">Edit</a>
+                <a class="btn btn-sm bg-danger text-white mr-2" href="{% url 'delete_user' i.id %}">Delete</a>
+                {% if i.status == 0 %}
+                <a class="btn btn-sm bg-danger text-white" href="{% url 'retrive_user' i.id %}">Retrive</a>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>3

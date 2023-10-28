@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title> Product Desc </title>
+    </head>
+    <body>
+        <div>
+        {% for i in product %}
+        <p>Product Name: {{i.product_name}}</p>
+        <img src="../../media/{{i.product_image}}" style="width:500px;height:500px" />
+        <p>MRP Rs. {{i.product_price}}</p>
+        <p>Offer Rs. {{i.product_oprice}}</p>
+        <p>Discount Rs.{{i.product_dprice}}</p>
+        <a href="#" class="btn" type="submit">Add</a>
+        {% endfor %}
+<div>
+    </body>
+</html>

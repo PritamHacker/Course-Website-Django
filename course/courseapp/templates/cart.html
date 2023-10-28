@@ -1,0 +1,86 @@
+{% load static %}
+{% include 'header.html' %}
+
+
+
+    <!-- --------------- Cart Start ------------------ -->
+    <section class="container-fluid cart-main">
+        <h1>Shopping Cart</h1>
+        <div class="row">
+           
+            <div class="col-md-8">
+                <span class="cart-main-count">{{cart_items|length}} Courses in Cart</span>
+                <hr>
+                <!-- --------------- Cart Item Start ------------------ -->
+                {% if 'email' in request.session %}
+                {% for cart_item in cart_items %}
+                <div class="row cart-item">
+                    
+                    <div class="col-md-2">
+                        <a href="#" style="text-decoration: none;"><img src="../../{{cart_item.product.image}}" alt=""
+                                width="100%"></a>
+                    </div>
+                    <div class="col-md-7 cart-item-desc">
+                        <a href="#" style="text-decoration: none;">
+                            <h6>{{cart_item.product.name}}</h6>
+                            <span class="cart-item-instructor">By Pritam and 2 Other</span><br>
+                            <span class="cart-item-best">Bestseller</span><span class="cart-item-rating">4.8
+                                Rating</span>
+                        </a>
+                    </div>
+                    <div class="col-md-2 cart-item-links">
+                        <a href="{% url 'del_from_cart' cart_item.id %}">Remove</a><br>
+                        {% comment %} <a href="#">Save for Later</a><br>
+                        <a href="#">Move to Wishlist</a> {% endcomment %}
+                    </div>
+                    <div class="col-md-1">
+                        <span class="cart-item-price">{{cart_item.product.price}}/-</span>
+                    </div>
+                </div>
+                <hr>
+                {% endfor %}
+                {% else %}
+
+                <p>Empty</p>
+                {% endif %}
+                
+                <!-- --------------- Cart Item End ------------------ -->
+
+
+                
+
+            </div>
+
+
+
+            <!-- --------------- Summary Start ------------------ -->
+            <div class="col-md-4" style="margin-top:50px">
+                <h3>Summary</h3>
+                {% comment %} <span>Original Price:</span>
+                <span style="float: right;">1800/-</span><br>
+                <div style="background-color: rgb(241, 241, 129);">
+                    <span>Credits applied:</span>
+                    <span style="float: right;">800/-</span>
+
+                </div>
+                <hr> {% endcomment %}
+                <div style="font-weight: 700; font-size:25px;">
+                    <span>Total:</span>
+                    <span style="float: right; color: blue;">{{total_price}}/-</span><br>
+
+                </div>
+                {% comment %} <span>Credits applied:</span>
+                <span style="float: right;">0/-</span><br><br> {% endcomment %}
+                {% if 'email' in request.session %}
+                <a href="{% url 'buy_now' %}" class="btn btn-dark" style="width: 100%;">Check Out</a>
+                {% endif %}
+                <hr>
+            </div>
+        </div>
+    </section>
+    <!-- --------------- Cart End ------------------ -->
+
+
+
+
+    {% include 'footer.html' %}

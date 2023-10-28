@@ -1,0 +1,1688 @@
+#search-bar {
+    height: 50px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.navbar-section-main {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.navbar-ul {
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.navbar-ul li {
+    padding-right: 15px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4d6adf;
+}
+
+.cart {
+    font-size: 30px;
+    margin-top: -11px;
+}
+
+.nav-button1 {
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-right: 34px;
+    font-size: 15px;
+}
+
+.nav-button2 {
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    margin-right: 34px;
+    font-size: 15px;
+}
+
+/* ---------- Nav End ---------- */
+
+
+
+/* ------- Banner ---------- */
+.banner-col1 {
+    color: white;
+    margin-top: 60px;
+}
+
+.banner-col1 h1 {
+    padding-left: 170px;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.banner-col1 p {
+    padding-top: 18px;
+    padding-left: 170px;
+    font-size: 18px;
+    font-family: cursive
+}
+
+#banner-button-div {
+    margin-left: 170px;
+    margin-top: 18px;
+}
+
+#banner-button {
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    padding: 8px 40px;
+    margin-right: 34px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* ----------- Banner Down --------------- */
+
+.banner-down {
+    /* background-image: url(img/banner/hero2.png); */
+    background-color: rgb(67, 93, 188);
+    height: 100px;
+    width: 100%;
+    margin-top: 88px;
+}
+
+.s1-countdown {
+    color: #fff;
+    margin-top: -6px;
+}
+
+.counter-img {
+    height: 60px;
+    width: 60px;
+}
+
+.s1-countdown img,
+svg {
+    vertical-align: middle;
+}
+
+.counter-value,
+.count-text {
+    font-size: 1.5rem;
+    font-family: "ProximaNova-600", sans-serif;
+    font-weight: bold;
+}
+
+
+/* ------------------- Featured Courses ------------------ */
+
+.course-main {
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
+
+.course-main h1 {
+    text-align: center;
+    color: rgb(68, 68, 198);
+}
+
+.course-content-body {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.course-content-wish {
+    padding: 0px;
+    font-size: 25px;
+    margin-top: -7px;
+
+}
+
+
+.course-btn-top {
+    margin-top: -20px;
+    margin-right: 12px;
+    border-radius: 30px;
+
+    background-color: rgb(213, 66, 66);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.course-btn {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    padding: 0p;
+    background-color: rgb(107, 129, 216);
+    margin-right: 15px;
+}
+
+.course-content-heading {
+    font-weight: 600;
+
+}
+
+.course-content-body h4 {
+    font-size: 20px;
+}
+
+.card-next {
+    margin-top: 25px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.price-btn {
+    font-size: 0px;
+}
+
+/* ------------- Categories Course ---------------*/
+
+.tab1 {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 12%;
+    height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab1 button {
+    display: block;
+
+    color: black;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    float: left;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+    background-color: #7c7ae4;
+}
+
+/* Create an active/current "tab button" class */
+.tab1 button.active {
+    background-color: #bdbcf0;
+    overflow: hidden;
+    border-right: 2px solid blue;
+}
+
+/* Style the tab content */
+.tabcontent1 {
+    padding: 0px 24px;
+    border-top: 1px solid #ccc;
+    height: 100%;
+}
+
+.cat-body {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.cat-btn1 {
+    background-color: rgb(107, 129, 216);
+    float: left;
+    border-radius: 27%;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.cat-btn2 {
+    background-color: rgb(107, 129, 216);
+    float: left;
+    border-radius: 16%;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.cat-wish {
+    padding: 0px;
+    padding-left: 10px;
+    margin-top: -5px;
+    float: left;
+    font-size: 20px;
+}
+
+
+
+/* ----------------- Course Selection ------------------- */
+
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.tab button:hover {
+    background-color: #7c7ae4;
+}
+
+.tab button.active {
+    background-color: #bdbcf0;
+    overflow: hidden;
+    border-bottom: 2px solid blue;
+}
+
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+
+
+
+/* ----------------- Review Section ------------------- */
+
+.container-m {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+.review-card {
+    background-color: #fff;
+    padding: 15px;
+    border: none;
+    height: 100%;
+    margin-top: 10px
+}
+
+.u-color {
+    color: rgb(68, 68, 198);
+}
+
+.user-image img {
+    border: 3px solid rgb(68, 68, 198);
+    padding: 2px;
+}
+
+
+
+/* ----------------- Company Section ------------------- */
+.company {
+    background-color: white;
+}
+
+.company-div {
+    padding-left: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.company img {
+    height: 10%;
+    width: 10%;
+}
+
+.footer-img {
+    width: 8%;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+
+/* ------------------------------------------------- Screen 2560px ------------------------------------------------ */
+@media(max-width:2560px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 170px;
+        font-size: 131px;
+        font-family: cursive;
+    }
+
+    .banner-col1 p {
+        padding-top: 18px;
+        padding-left: 170px;
+        font-size: 34px;
+        font-family: cursive
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 8px 40px;
+        margin-right: 34px;
+        font-size: 30px;
+        font-family: cursive;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 192px;
+    }
+
+    /* ------------------- Featured Courses ------------------ */
+
+    .course-main {
+        margin-top: 45px;
+        margin-bottom: 75px;
+        max-width: 2066px;
+    }
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 75px;
+    }
+
+
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 40px;
+        margin-top: -18px;
+
+    }
+
+    .course-btn {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 15px;
+    }
+
+    .course-content-body h4 {
+        font-size: 30px;
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 15%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 40px 10px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 31px;
+        float: left;
+    }
+
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 24px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 10px;
+        margin-top: -9px;
+        float: left;
+        font-size: 32px;
+    }
+
+
+
+    /* ----------------- Course Selection ------------------- */
+
+    .cat-main1 h1 {
+        font-size: 70px;
+    }
+
+    .cat-main1 p {
+        font-size: 25px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .tab button:hover {
+        background-color: #7c7ae4;
+    }
+
+    .tab button.active {
+        background-color: #bdbcf0;
+        overflow: hidden;
+        border-bottom: 2px solid blue;
+    }
+
+    .tabcontent {
+        display: none;
+        border-top: none;
+    }
+
+    .cat-main1 {
+        max-width: 2066px;
+    }
+
+
+
+    /* ----------------- Review Section ------------------- */
+
+    .container-m1 {
+        max-width: 2066px;
+    }
+
+
+
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 50px;
+        display: flex;
+        gap: 100px;
+    }
+
+    .company img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .footer-img {
+        width: 8%;
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+
+}
+
+/* ------------------------------------------------- Screen 1920px ------------------------------------------------ */
+
+@media(max-width:1920px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 170px;
+        font-size: 85px;
+        font-family: cursive;
+    }
+
+    .banner-col1 p {
+        padding-top: 18px;
+        padding-left: 170px;
+        font-size: 18px;
+        font-family: cursive
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 8px 40px;
+        margin-right: 34px;
+        font-size: 18px;
+        font-family: cursive;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 178px;
+    }
+
+    /* ------------------- Featured Courses ------------------ */
+
+    .course-main {
+        margin-top: 45px;
+        margin-bottom: 75px;
+        max-width: 1600px;
+    }
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 55px;
+    }
+
+
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 40px;
+        margin-top: -18px;
+
+    }
+
+    .course-btn {
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 15px;
+    }
+
+    .course-content-body h4 {
+        font-size: 25px;
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 15%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 30px 15px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 25px;
+        float: left;
+    }
+
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 24px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 10px;
+        margin-top: -9px;
+        float: left;
+        font-size: 32px;
+    }
+
+
+
+    /* ----------------- Course Selection ------------------- */
+
+    .cat-main1 h1 {
+        font-size: 55px;
+    }
+
+    .cat-main1 p {
+        font-size: 20px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    .tab button:hover {
+        background-color: #7c7ae4;
+    }
+
+    .tab button.active {
+        background-color: #bdbcf0;
+        overflow: hidden;
+        border-bottom: 2px solid blue;
+    }
+
+    .tabcontent {
+        display: none;
+        border-top: none;
+    }
+
+    .cat-main1 {
+        max-width: 1600px;
+    }
+
+
+
+    /* ----------------- Review Section ------------------- */
+
+    .container-m1 {
+        max-width: 1700px;
+    }
+
+
+
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 50px;
+        display: flex;
+        gap: 100px;
+    }
+
+}
+
+/* ------------------------------------------------- Screen 1537px ------------------------------------------------ */
+
+@media(max-width:1600px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 170px;
+        font-size: 70px;
+        font-family: cursive;
+    }
+
+    .banner-col1 p {
+        padding-top: 18px;
+        padding-left: 170px;
+        font-size: 16px;
+        font-family: cursive
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 8px 40px;
+        margin-right: 34px;
+        font-size: 18px;
+        font-family: cursive;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    /* ------------------- Featured Courses ------------------ */
+    .course-main {
+        margin-top: 45px;
+        margin-bottom: 75px;
+        max-width: 1200px;
+    }
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 45px;
+    }
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 25px;
+        margin-top: -8px;
+    }
+
+    .course-btn {
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 15px;
+    }
+
+    .course-content-body h4 {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 15%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 20px 10px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 18px;
+        float: left;
+    }
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 100px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 10px;
+        margin-top: -7px;
+        float: left;
+        font-size: 22px;
+    }
+
+    /* ----------------- Course Selection ------------------- */
+    .cat-main1 h1 {
+        font-size: 40px;
+    }
+
+    .cat-main1 p {
+        font-size: 15px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 12px 14px;
+        transition: 0.3s;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .cat-main1 {
+        max-width: 1200px;
+    }
+
+    /* ----------------- Review Section ------------------- */
+    .container-m1 {
+        max-width: 1200px;
+    }
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 50px;
+        display: flex;
+        gap: 100px;
+    }
+
+
+}
+
+/* ------------------------------------------------- Screen 1440px ------------------------------------------------ */
+
+@media(max-width:1440px) {
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 73px;
+    }
+
+}
+
+
+/* ------------------------------------------------- Screen 1024px ------------------------------------------------ */
+
+@media(max-width:1024px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 88px;
+        font-size: 46px;
+        font-family: cursive;
+        margin-top: -28px;
+
+    }
+
+    .banner-col1 p {
+        padding-top: 2px;
+        padding-left: 88px;
+        font-size: 11px;
+        font-family: cursive;
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 8px 22px;
+        /* margin-right: 57px; */
+        font-size: 12px;
+        font-family: cursive;
+        margin-left: -81px;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .counter-img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .counter-value,
+    .count-text {
+        font-size: 16px;
+        font-family: "ProximaNova-600", sans-serif;
+        font-weight: bold;
+    }
+
+    .count-text1 {
+        font-size: 15px;
+
+    }
+
+    /* ------------------- Featured Courses ------------------ */
+    .course-main {
+        margin-top: 45px;
+        margin-bottom: 75px;
+        max-width: 900px;
+    }
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 35px;
+    }
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 20px;
+        margin-top: -5px;
+    }
+
+    .course-btn {
+        font-size: 10px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 4px;
+    }
+
+    .course-content-body h4 {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 12%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 20px 10px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 15px;
+        float: left;
+    }
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 15px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 9px;
+        margin-left: 6px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 9px;
+        margin-left: 6px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 6px;
+        margin-top: -4px;
+        float: left;
+        font-size: 18px;
+    }
+
+    /* ----------------- Course Selection ------------------- */
+    .cat-main1 h1 {
+        font-size: 40px;
+    }
+
+    .cat-main1 p {
+        font-size: 15px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 12px 14px;
+        transition: 0.3s;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .cat-main1 {
+        max-width: 900px;
+    }
+
+    /* ----------------- Review Section ------------------- */
+    .container-m1 {
+        max-width: 900px;
+    }
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 50px;
+        display: flex;
+        gap: 68px;
+    }
+
+    .company img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .footer-img {
+        width: 12%;
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+
+}
+
+/* ------------------------------------------------- Screen 768px ------------------------------------------------ */
+
+@media(max-width:768px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 58px;
+        font-size: 30px;
+        font-family: cursive;
+        margin-top: -28px;
+    }
+
+    .banner-col1 p {
+        padding-top: 2px;
+        padding-left: 58px;
+        font-size: 10px;
+        font-family: cursive;
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 8px 22px;
+        /* margin-right: 57px; */
+        font-size: 8px;
+        font-family: cursive;
+        margin-left: -81px;
+        margin-top: -17px;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 70px;
+        display: none;
+    }
+
+
+
+    /* ------------------- Featured Courses ------------------ */
+    .course-main {
+        margin-top: 65px;
+        margin-bottom: 75px;
+        max-width: 650px;
+    }
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 30px;
+    }
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 20px;
+        margin-top: -5px;
+        display: none;
+    }
+
+    .course-btn {
+        font-size: 7px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 4px;
+    }
+
+    .course-content-body h4 {
+        font-size: 10px;
+    }
+
+    .price {
+        font-size: 8px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .price-btn {
+        font-size: 0px;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 12%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 15px 10px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 11px;
+        float: left;
+    }
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 15px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 6px;
+        margin-left: 6px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 6px;
+        margin-left: 9px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 6px;
+        margin-top: -4px;
+        float: left;
+        font-size: 10px;
+        display: none;
+    }
+
+    /* ----------------- Course Selection ------------------- */
+    .cat-main1 h1 {
+        font-size: 28px;
+    }
+
+    .cat-main1 p {
+        font-size: 12px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 12px 14px;
+        transition: 0.3s;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .cat-main1 {
+        max-width: 650px;
+    }
+
+    /* ----------------- Review Section ------------------- */
+    .container-m1 {
+        max-width: 650px;
+    }
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 76px;
+        display: flex;
+        gap: 52px;
+    }
+
+    .company img {
+        height: 8%;
+        width: 8%;
+    }
+
+    .footer-img {
+        width: 12%;
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+
+}
+
+/* ------------------------------------------------- Screen 576px ------------------------------------------------ */
+
+@media(max-width:576px) {
+    #search-bar {
+        height: 50px;
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    /* ------- Banner ---------- */
+    .banner-col1 h1 {
+        padding-left: 31px;
+        font-size: 18px;
+        font-family: cursive;
+        margin-top: -37px;
+    }
+
+    .banner-col1 p {
+        padding-top: 2px;
+        padding-left: 31px;
+        font-size: 6px;
+        font-family: cursive;
+    }
+
+    #banner-button {
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-weight: 600;
+        padding: 5px 15px;
+        /* margin-right: 57px; */
+        font-size: 5px;
+        font-family: cursive;
+        margin-left: -100px;
+        margin-top: -17px;
+    }
+
+    /* ----------- Banner Down --------------- */
+    .banner-down {
+        /* background-image: url(img/banner/hero2.png); */
+        background-color: rgb(67, 93, 188);
+        height: 100px;
+        width: 100%;
+        margin-top: 70px;
+        display: none;
+    }
+
+
+
+    /* ------------------- Featured Courses ------------------ */
+    .course-main {
+        margin-top: 65px;
+        margin-bottom: 75px;
+        max-width: 370px;
+    }
+
+
+    .headings {
+        text-align: center;
+        color: rgb(68, 68, 198);
+        font-size: 30px;
+    }
+
+    .course-content-wish {
+        padding: 0px;
+        font-size: 26px;
+        margin-top: -5px;
+        display: contents;
+    }
+
+    .course-btn {
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(107, 129, 216);
+        margin-right: 14px;
+    }
+
+    .course-content-body h4 {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .price-btn {
+        font-size: 0px;
+    }
+
+
+    /* ------------- Categories Course ---------------*/
+    .tab1 {
+        float: left;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: 18%;
+        height: 100%;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab1 button {
+        display: block;
+        color: black;
+        padding: 15px 10px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 12px;
+        float: left;
+    }
+
+    /* Style the tab content */
+    .tabcontent1 {
+        padding: 0px 122px;
+        border-top: 1px solid #ccc;
+        height: 100%;
+    }
+
+    .course-content-heading {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .cat-btn1 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 27%;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 6px;
+    }
+
+    .cat-btn2 {
+        background-color: rgb(107, 129, 216);
+        float: left;
+        border-radius: 16%;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 9px;
+    }
+
+    .cat-wish {
+        padding: 0px;
+        padding-left: 13px;
+        margin-top: -6px;
+        float: left;
+        font-size: 23px;
+        display: block;
+    }
+
+    /* ----------------- Course Selection ------------------- */
+    .cat-main1 h1 {
+        font-size: 25px;
+    }
+
+    .cat-main1 p {
+        font-size: 10px;
+    }
+
+    .tab {
+        overflow: hidden;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 8px 10px;
+        transition: 0.3s;
+        font-size: 12px;
+        margin-right: 2px;
+    }
+
+    .cat-main1 {
+        max-width: 370px;
+    }
+
+    /* ----------------- Review Section ------------------- */
+    .container-m1 {
+        max-width: 380px;
+    }
+
+    /* ----------------- Company Section ------------------- */
+    .company {
+        background-color: white;
+    }
+
+    .company-div {
+        padding-left: 21px;
+        display: flex;
+        gap: 37px;
+    }
+
+    .company img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .footer-img {
+        width: 20%;
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+
+}
